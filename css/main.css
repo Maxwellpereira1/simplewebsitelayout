@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #eeeeee;
+    background: #D3D3D3;
 }
 
 .tm-container{
@@ -14,22 +14,24 @@ body{
 }
 
 .tm-header{
-    background: #fff;
+    background:#fff;
 }
 
-tm-header::after{
+.tm-header::after{
     content: "";
     clear: block;
     display: block;
     visibility: none;  
 }
 
-tm-logo{
+.tm-logo{
     float:left;
+    background: #fff;
 }
 
 .tm-nav{
     float:right;
+    background: #fff;
 }
 
 .tm-nav ul{
@@ -67,8 +69,86 @@ ul,ol{
 .tm-content{
     margin-top: 30px;
     margin-bottom: 30px;
+    max-width: 70%;
+    float: left;
 }
+
+.tm-sidebar{
+   margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 25%x;
+    float: right;
+    width: 25%;
+}
+
+.tm-sidebar div{
+    background: #fff;
+    padding: 20px; 
+}
+   
+
 .tm-article{
     background: #fff;
     padding: 30px;
 }
+
+img{
+    display:block;
+    max-width: 100%;
+}
+
+.tm-footer{
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.clearfix::after{
+    content: " ";
+    clear: both;
+    display: block;
+    visibility: none;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
