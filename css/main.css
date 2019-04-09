@@ -18,8 +18,8 @@ body{
 }
 
 .tm-header::after{
-    content: "";
-    clear: block;
+    content: " ";
+    clear: both;
     display: block;
     visibility: none;  
 }
